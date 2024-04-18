@@ -1,0 +1,1 @@
+This project uses Spark to analyze features of breast cancer masses in order to differentiate healthy from cancerous tissue.  The analysis was set up to allow streaming data (imagine live results fed in from hospitals or surgeons), in order to provide real-time updates to the model and feedback to pathologists and oncologists.
