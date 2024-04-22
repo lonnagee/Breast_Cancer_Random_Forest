@@ -5,17 +5,18 @@ This analysis seeks to use PySpark to analyze a data set of features of breast m
 Below are the fields in the data set:
 1.	ID number
 2.	Diagnosis (M = malignant, B = benign)
-3-32. Ten real-valued features are computed for each cell nucleus (each one list listed 3 times):
-a) radius (mean of distances from center to points on the perimeter)
-b) texture (standard deviation of gray-scale values)
-c) perimeter
-d) area
-e) smoothness (local variation in radius lengths)
-f) compactness (perimeter^2 / area - 1.0)
-g) concavity (severity of concave portions of the contour)
-h) concave points (number of concave portions of the contour)
-i) symmetry 
-j) fractal dimension ("coastline approximation" - 1)
+3.	through 32. Ten real-valued features are computed for each cell nucleus (each one list listed 3 times):
+ - a) radius (mean of distances from center to points on the perimeter)
+ - b) texture (standard deviation of gray-scale values)
+ - c) perimeter
+ - d) area
+ - e) smoothness (local variation in radius lengths)
+ - f) compactness (perimeter^2 / area - 1.0)
+ - g) concavity (severity of concave portions of the contour)
+ - h) concave points (number of concave portions of the contour)
+ - i) symmetry 
+ - j) fractal dimension ("coastline approximation" - 1)
+  
 Cancer touches so many, and robs many families of years together. As data scientists and researchers, helping to refine early identification and removal of cancer can be lifesaving for people. Further, accurate identification of benign and malignant tumors can be a life or death situation, and the ability to provide predictive analytics/confirmational support for human pathologists could be beneficial.
 
 ## Load and Examine Data
